@@ -114,16 +114,20 @@ p {
   -webkit-animation-delay: 1s;
   /* Chrome, Safari, Opera */
   animation-delay: 1s;
+  /* remove purple from html default */
+}
+/* line 47, ../sass/style.scss */
+p a {
+  color: #333;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 body {
   min-height: 100%;
   position: relative;
   background: url(https://farm2.staticflickr.com/1569/25396635932_f950cbb34a_h.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center;
-  background-size: cover;
 }
 
 /* line 60, ../sass/style.scss */

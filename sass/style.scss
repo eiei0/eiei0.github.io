@@ -41,6 +41,16 @@ img {
   height: 100px;
 }
 
+// body
+body {
+  min-height: 100%;
+  position: relative;
+  background: url(https://farm2.staticflickr.com/1569/25396635932_f950cbb34a_h.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 // Footer
 .footer {
   padding: 1% 5%;

@@ -110,12 +110,22 @@ img {
 }
 
 /* line 45, ../sass/style.scss */
+body {
+  min-height: 100%;
+  position: relative;
+  background: url(https://farm2.staticflickr.com/1569/25396635932_f950cbb34a_h.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 55, ../sass/style.scss */
 .footer {
   padding: 1% 5%;
   text-align: center;
   color: white;
 }
-/* line 50, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .footer a {
   font-weight: 500;
   text-decoration: none;
